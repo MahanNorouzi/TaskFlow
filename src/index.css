@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --color-obsidian: #111318;
+  --color-ice: #e8edf2;
+
+  --color-surface: #191d24;
+  --color-surface-hover: #202630;
+  --color-border: #252b35;
+
+  --color-text-primary: #f4f7fa;
+  --color-text-secondary: #a0aab8;
+
+  --color-accent: #8bbed6;
+  --color-accent-hover: #a4cfe3;
+
+  --font-sans: "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+}
