@@ -5,9 +5,9 @@ import Header from "./Header";
 function AppLayout() {
   return (
     <>
-      <div>
+      <div className="md:flex">
         <Sidebar />
-        <div>
+        <div className="flex-1 min-w-0">
           <Header />
           <main>
             <Outlet />
